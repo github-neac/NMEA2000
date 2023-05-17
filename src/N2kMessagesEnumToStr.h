@@ -273,4 +273,15 @@ const char* const tN2kXTEModeStrs[] = { "Autonomous", "Differential", "Estimated
  */
 MakeN2kEnumTypeToStrFunc(tN2kXTEMode, tN2kXTEModeStrs);
 
+// David PICCAND 17/05/2023
+/************************************************************************//**
+ * \brief string representation of the N2k enum tN2kDistanceCalculationTypeStrs
+ */
+const char* const tN2kDistanceCalculationTypeStrs[] = { "GreatCircle", "RhumbLine" };
+
+/************************************************************************//**
+ * \brief Converting the N2k enum \ref tN2kXTEModeStrs to a const char
+ */
+MakeN2kEnumTypeToStrFunc(tN2kDistanceCalculationType, tN2kDistanceCalculationTypeStrs);
+
 #endif
